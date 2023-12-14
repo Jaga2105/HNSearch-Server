@@ -65,7 +65,7 @@ app.get('/posts', (req, res) => {
 
 
 app.get('/', (req, res) =>{
-    res.json({"test":"hello foodalix lovers !!! "});
+    res.json({"test":"hello hnsearch !!! "});
   })
 app.listen(port, () => {
     console.log(`Server is listening on port ${port}`);
